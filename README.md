@@ -76,7 +76,6 @@ Total distance and travel time between the origin and each store for walking:
 
 |     Store              |     Travel Distance (m)    |     Travel Duration (s)    |
 |------------------------|----------------------------|----------------------------|
-|     Store              |     Travel Distance (m)    |     Travel Duration (s)    |
 |     Loblaws MLG        |     2826                   |     2199                   |
 |     No Frills          |     7112                   |     5516                   |
 |     No Frills Joe's    |     4613                   |     3483                   |
