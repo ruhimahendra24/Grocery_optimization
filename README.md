@@ -38,6 +38,11 @@ Here is a sample of what the data looks like:
 
 The distance and time information were obtained by retrieving a distance matrix from the Google Maps API. Since our model assumes that the user will want to visit only one store when grocery shopping, only the distances of the shortest paths between the origin and all the seven stores and their corresponding travel times were kept. To facilitate the development of the model, the distance and travel time of the round trip between each store and the origin were calculated by adding the metrics of the trips in both ways. This process was repeated for four different modes of travel, namely driving, walking, biking, and public transport (Toronto subway) to make the model more inclusive and to reflect the reality of the different travel options available to different groups of society more closely. 
 
+Location of grocery stores with respect to the origin: 
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/65621746/216473974-2aaa2cb1-d69f-476f-82ba-935061b036a9.png">
+
+
 
 Total distance and travel time between the origin and each store for driving:
 
