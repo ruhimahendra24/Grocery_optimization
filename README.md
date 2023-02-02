@@ -133,6 +133,6 @@ Total nutritional information from the model output:
 |     Potassium (mg)       |     41795    |
 
 # Acknowledgements
-Thank you to Rohana Habib, Amr Maraqa and Iris Liu for working along side this project. Thank you to Professor Javad Nasiry for providing us with the knowledge and skill set to complete this project. Thank you to the L'Abbe Lab for providing us with data from the FLIP database.
+Thank you to Rohana Habib, Amr Maraqa and Iris Liu for working alongside myself on this project. Thank you to Professor Javad Nasiry for providing us with the knowledge and skill set to complete this project. Thank you to the L'Abbe Lab for providing us with data from the FLIP database.
 
 
