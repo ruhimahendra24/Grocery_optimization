@@ -114,4 +114,44 @@ Total distance and travel time between the origin and each store for biking:
 |     Metro              |     2837                   |     707                    |
 
 
+# Model Output
+The output of the linear optimization model determined Joe’s No Frills as the optimal grocery to shop at along with biking as the optimal mode of transportation. These results satisfy the travelling time constraint as well as minimize the travelling cost.The total cost of all the items at Joe’s No Frills is $28.36. 
+
+Grocery list from the model output: 
+|     Food Product                        |     Quantity    |
+|-----------------------------------------|-----------------|
+|     Sparkling Passion Fruit Beverage    |     1           |
+|     Parle Krackjack Cookies             |     1           |
+|     Pear J Sparkling Pear Drink         |     1           |
+|     Grade A White Eggs, Large           |     1           |
+|     Hazelnut Wafers                     |     1           |
+|     Whole Leaf Spinach                  |     1           |
+|     Chicken Hot Dogs                    |     2           |
+|     Luncheon Meat                       |     1           |
+|     Whole Flaxseed                      |     1           |
+|     Sliced Mushrooms                    |     1           |
+|     Yellow Split Peas                   |     2           |
+|     Lupini Beans                        |     2           |
+
+Total nutritional information from the model output: 
+
+|     Nutrient             |     Value    |
+|--------------------------|--------------|
+|     Calories (kcal)      |     20991    |
+|     Protein (g)          |     1401     |
+|     Fat (g)              |     841      |
+|     Trans Fat (g)        |     2        |
+|     Saturated Fat (g)    |     143      |
+|     Carbohydrates (g)    |     2175     |
+|     Fibre                |     1049     |
+|     Sugar (g)            |     240      |
+|     Sodium (mg)          |     12985    |
+|     Cholesterol (mg)     |     2196     |
+|     Vitamin A (mg)       |     593      |
+|     Vitamin C (mg        |     169      |
+|     Calcium (mg)         |     8838     |
+|     Iron (mg)            |     224      |
+|     Potassium (mg)       |     41795    |
+
+
 
