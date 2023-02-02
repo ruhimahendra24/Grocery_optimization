@@ -57,10 +57,61 @@ Here is a sample of what the data looks like:
 
 The distance and time information were obtained by retrieving a distance matrix from the Google Maps API. Since our model assumes that the user will want to visit only one store when grocery shopping, only the distances of the shortest paths between the origin and all the seven stores and their corresponding travel times were kept. To facilitate the development of the model, the distance and travel time of the round trip between each store and the origin were calculated by adding the metrics of the trips in both ways. This process was repeated for four different modes of travel, namely driving, walking, biking, and public transport (Toronto subway) to make the model more inclusive and to reflect the reality of the different travel options available to different groups of society more closely. 
 
+
+Total distance and travel time between the origin and each store for driving:
+
  
-| ![smap.jpg]([http://www.storywarren.com/wp-content/uploads/2016/09/space-1.jpg](https://user-images.githubusercontent.com/65621746/216470872-da6755b6-e0f4-4ba2-bc44-f27adb429c2a.png) | 
-|:--:| 
-| *Here are the locations of the grocery stores with respect to the user's origin* |
+ |     Store              |     Travel Distance (m)    |     Travel Duration (s)    |
+|------------------------|----------------------------|----------------------------|
+|     Loblaws MLG        |     4356                   |     1012                   |
+|     No Frills          |     7482                   |     1705                   |
+|     No Frills Joe's    |     5520                   |     1483                   |
+|     Walmart            |     51655                  |     3777                   |
+|     Grocery Gateway    |     8676                   |     1754                   |
+|     Loblaws            |     2155                   |     2669                   |
+|     Metro              |     3836                   |     911                    |
+
+
+Total distance and travel time between the origin and each store for walking:
+
+|     Store              |     Travel Distance (m)    |     Travel Duration (s)    |
+|------------------------|----------------------------|----------------------------|
+|     Store              |     Travel Distance (m)    |     Travel Duration (s)    |
+|     Loblaws MLG        |     2826                   |     2199                   |
+|     No Frills          |     7112                   |     5516                   |
+|     No Frills Joe's    |     4613                   |     3483                   |
+|     Walmart            |     38150                  |     28753                  |
+|     Grocery Gateway    |     7520                   |     5730                   |
+|     Loblaws            |     4628                   |     3517                   |
+|     Metro              |     2472                   |     1913                   |
+
+
+Total distance and travel time between the origin and each store for the subway:
+
+|     Store              |     Travel Distance (m)    |     Travel Duration (s)    |
+|------------------------|----------------------------|----------------------------|
+|     Store              |     Travel Distance (m)    |     Travel Duration (s)    |
+|     Loblaws MLG        |     2826                   |     2199                   |
+|     No Frills          |     7112                   |     5516                   |
+|     No Frills Joe's    |     4613                   |     3483                   |
+|     Walmart            |     38150                  |     28753                  |
+|     Grocery Gateway    |     7520                   |     5730                   |
+|     Loblaws            |     4628                   |     3517                   |
+|     Metro              |     2472                   |     1913                   |
+
+
+Total distance and travel time between the origin and each store for biking:
+
+
+|     Store              |     Travel Distance (m)    |     Travel Duration (s)    |
+|------------------------|----------------------------|----------------------------|
+|     Loblaws MLG        |     3191                   |     816                    |
+|     No Frills          |     7579                   |     2073                   |
+|     No Frills Joe's    |     5395                   |     1373                   |
+|     Walmart            |     40373                  |     8685                   |
+|     Grocery Gateway    |     8776                   |     1935                   |
+|     Loblaws            |     4668                   |     1023                   |
+|     Metro              |     2837                   |     707                    |
 
 
 
