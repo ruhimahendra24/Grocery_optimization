@@ -29,6 +29,7 @@ The basic model was built by minimizing the cost of purchasing grocery items and
 
 
 # Data Inputs
+## Grocery Data
 
 The data on which the optimization model was built was obtained from the University of Toronto’s (UofT) Food Labelling Information Program (FLIP) curated by the L’Abbe Lab. Data in the FLIP database contains information about packaged food items across different stores in Toronto that is updated every 3-4 years. The application of our model was restricted to the data in the 2020 dataset, as it was the first dataset to map items to the retail stores and include item prices. The data also includes information about item characteristics, such as their food category, container weight, serving size, and nutritional value per serving.  
 
@@ -50,3 +51,18 @@ Here is a sample of what the data looks like:
 | K | VITA | VITC | CALCIUM | IRON |
 |---|------|------|---------|------|
 | NA   |  NA     |   NA    |   NA       |  NA     |
+
+
+## Google Maps Data
+
+The distance and time information were obtained by retrieving a distance matrix from the Google Maps API. Since our model assumes that the user will want to visit only one store when grocery shopping, only the distances of the shortest paths between the origin and all the seven stores and their corresponding travel times were kept. To facilitate the development of the model, the distance and travel time of the round trip between each store and the origin were calculated by adding the metrics of the trips in both ways. This process was repeated for four different modes of travel, namely driving, walking, biking, and public transport (Toronto subway) to make the model more inclusive and to reflect the reality of the different travel options available to different groups of society more closely. 
+
+Here are the locations of the grocery store with respect to the origin: 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/65621746/216470682-6a13910c-53ae-41d9-8c42-5ba64dfd9563.png">
+
+
+
+
+
+
+
