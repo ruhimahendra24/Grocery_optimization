@@ -1,6 +1,6 @@
 # Grocery Shopping Optimization 
 ## About the Project
-This project was created by two classmates and myself for our Decision Analytics cours within the MMA program at McGill. 
+This project was created by three classmates and myself for our Decision Analytics course within the MMA program at McGill. 
 
 We were tasked to come up with a problem that we would like to optimize using Gurobi Opimization in Python. 
 
@@ -132,5 +132,7 @@ Total nutritional information from the model output:
 |     Iron (mg)            |     224      |
 |     Potassium (mg)       |     41795    |
 
+# Acknowledgements
+Thank you to Rohana Habib, Amr Maraqa and Iris Liu for working along side this project. Thank you to Professor Javad Nasiry for providing us with the knowledge and skill set to complete this project. Thank you to the L'Abbe Lab for providing us with data from the FLIP database.
 
 
